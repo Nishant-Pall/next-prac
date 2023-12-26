@@ -4,9 +4,20 @@ export default function Home() {
 	return (
 		<main>
 			<h1>hello</h1>
-			<Link href="/">Home</Link>
-			<Link href="/blog/hello">Hello</Link>
-			<Link href="/about">About</Link>
+			<div className="flex flex-col gap-1 p-10">
+				<Link href="/" className="bg-white text-black">
+					Home
+				</Link>
+				<Link className="bg-white text-black" href="/blog/hello">
+					Hello
+				</Link>
+				<Link className="bg-white text-black" href="/blog/hello/test">
+					TEST
+				</Link>
+				<Link className="bg-white text-black" href="/about">
+					About
+				</Link>
+			</div>
 		</main>
 	);
 }
