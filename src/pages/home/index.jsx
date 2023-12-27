@@ -14,6 +14,9 @@ export default function Home() {
 				<Link className="bg-white text-black" href="/blog/2">
 					Blog 2
 				</Link>
+				<Link className="bg-white text-black" href="/blog/a/b/c">
+					Blog multiple params
+				</Link>
 				<Link className="bg-white text-black" href="/blog/hello">
 					Hello
 				</Link>
