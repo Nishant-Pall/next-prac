@@ -8,6 +8,12 @@ export default function Home() {
 				<Link href="/" className="bg-white text-black">
 					Home
 				</Link>
+				<Link className="bg-white text-black" href="/blog/1">
+					Blog 1
+				</Link>
+				<Link className="bg-white text-black" href="/blog/2">
+					Blog 2
+				</Link>
 				<Link className="bg-white text-black" href="/blog/hello">
 					Hello
 				</Link>
